@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b2d55;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #012c4e;
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.nav a {
+    margin-left: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.search-bar {
+    width: 50%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-button {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border: none;
+    background-color: #ff6600;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-button:hover {
+    background-color: #cc5200;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.game-item {
+    background-color: #014578;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.game-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.game-item p {
+    margin-top: 0.5rem;
+    color: #ffffff;
+}
+
+.game-item:hover {
+    transform: translateY(-5px);
+    background-color: #0168a7;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #012c4e;
+    color: white;
+}
