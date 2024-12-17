@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjelasan Daur Ulang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        nav a.active { border-bottom: 2px solid #2f855a; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <h1 class="text-3xl font-bold text-green-700">Jenis Daur Ulang</h1>
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="index.html" class="text-gray-700 hover:text-green-700">Home</a></li>
+                <li><a href="teknologi.html" class="text-gray-700 hover:text-green-700">Teknologi</a></li>
+                <li><a href="bahan.html" class="text-gray-700 hover:text-green-700 active">Bahan</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="text-center py-16 bg-white shadow-lg">
+        <h2 class="text-4xl font-bold text-green-700">Jenis Bahan yang Dapat Didaur Ulang</h2>
+        <p class="text-lg text-gray-600 mt-4 mx-auto max-w-3xl">
+            Beberapa jenis material dapat didaur ulang menjadi produk baru yang lebih berguna. Berikut adalah kategori bahan-bahan tersebut:
+        </p>
+    </section>
+
+    <!-- Jenis Bahan -->
+    <div class="container mx-auto px-4 mt-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Plastik -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl text-center">
+                <img src="img/Plastik.png" alt="Plastik" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-2xl font-semibold text-green-600 mb-2">Plastik</h3>
+                <p>
+                    Plastik seperti botol minuman dan kemasan dapat didaur ulang menjadi produk seperti tas, pakaian, atau bahan bangunan.
+                </p>
+            </div>
+            <!-- Kertas -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl text-center">
+                <img src="img/kertas.png" alt="Kertas" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-2xl font-semibold text-green-600 mb-2">Kertas</h3>
+                <p>
+                    Kertas bekas, koran, dan kardus dapat didaur ulang menjadi kertas baru, tisu, atau bahan kemasan.
+                </p>
+            </div>
+            <!-- Logam -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl text-center">
+                <img src="img/Logam.png" alt="Logam" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-2xl font-semibold text-green-600 mb-2">Logam</h3>
+                <p>
+                    Logam seperti kaleng aluminium dan besi tua dapat dilebur dan digunakan kembali untuk pembuatan produk logam baru.
+                </p>
+            </div>
+            <!-- Kaca -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl text-center">
+                <img src="img/Kaca.png" alt="Kaca" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-2xl font-semibold text-green-600 mb-2">Kaca</h3>
+                <p>
+                    Kaca dari botol atau pecahan kaca dapat didaur ulang menjadi kaca baru atau produk dekoratif.
+                </p>
+            </div>
+            <!-- Organik -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl text-center">
+                <img src="img/organic.png" alt="Organik" class="mx-auto mb-4 rounded-lg">
+                <h3 class="text-2xl font-bold text-green-600 mb-2">Organik</h3>
+                <p>
+                    Sampah organik seperti sisa makanan dan daun kering dapat diolah menjadi pupuk kompos yang berguna bagi tanaman.
+                </p>
+            </div>
+            <!-- Elektronik -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl text-center">
+                <img src="img/elektronik.png" alt="Elektronik" class="mx-auto mb-4">
+                <h3 class="text-2xl font-semibold text-green-600 mb-2">Elektronik</h3>
+                <p>
+                    Barang elektronik bekas dapat didaur ulang untuk diambil komponen berharga seperti logam langka dan plastik.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 py-6 mt-12">
+        <div class="container mx-auto text-center text-white">
+            <p class="text-sm">&copy; Penjelasan Daur Ulang</p>
+        </div>
+    </footer>
+</body>
+</html>
